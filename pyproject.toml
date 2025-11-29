@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aetherlink"
+version = "2.6.3"
+description = "A Selenium-based DeepSeek automation library with context management"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "PX Horizons", email = "smalhorizons@gmail.com" }
+]
+
+dependencies = [
+    "selenium>=4.0.0",
+    "beautifulsoup4>=4.0.0"
+]
+
+# ✔ Since your project is closed-source
+license = { text = "Proprietary - No Redistribution Allowed" }
+
+keywords = ["chatgpt", "deepseek", "selenium", "automation", "bot"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/tacticalhorizons/aetherlink"
+Source = "https://github.com/tacticalhorizons/aetherlink"
+Issues = "https://github.com/tacticalhorizons/aetherlink/issues"
