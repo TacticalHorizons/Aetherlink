@@ -76,7 +76,7 @@ AetherLink automatically:
 4. Executes any detected commands
 5. Reprompts the model if commands produced results
 
-All visible to you, but invisible to the end user.
+All visible to you, but invisible to the end user. (Still visible if verbose mode is enabled!)
 
 ---
 
@@ -150,6 +150,9 @@ aether.clear_chat_history()
 
 ---
 
+*These are included with AetherLink by default, but may be disabled by default in future versions.
+**More wrapper commands will be included in future versions, such as private reasoning and chat context (which doesn't rely on memory), among others.
+
 # **8. Custom Commands System**
 
 AetherLink v2 introduces a complete modular command registry.
@@ -214,6 +217,8 @@ AetherLink ships with 3 demo commands:
 | `<!calc>`       | Simple arithmetic calculator | `<!calc 2 + 2>`     |
 
 These can be removed or replaced.
+
+*In future versions, the demo commands will no longer be included by default. They will be placed in the example script instead.
 
 ---
 
