@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Potentially outdated, haven't checked. (Written on AetherLink 2.5.X)
+
 Enhanced AetherLink Bakery Example - DeepSeek Edition
 Customer service bot with product pricing commands
 """
