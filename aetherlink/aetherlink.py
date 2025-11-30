@@ -21,7 +21,7 @@ import re
 class AetherLink:
     def __init__(self, headless=False, instructions="You are a helpful AI assistant.",
                  cookie_file='cookies.pkl', user_context_file='user_context.json',
-                 verbose=True, base_url="https://chat.deepseek.com"):
+                 verbose=True, base_url="https://chat.deepseek.com", install_default_commands=True):
         """
         AetherLink wrapper optimized for DeepSeek web automation with enhanced command system.
         """
@@ -45,7 +45,8 @@ class AetherLink:
         
         # Initialize custom command registry
         self.command_registry = {}
-        self._initialize_default_commands()
+        if install_default_commands:
+            self._initialize_default_commands()
 
         self.core_instructions = """
 CORE INSTRUCTIONS:
