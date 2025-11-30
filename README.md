@@ -1,3 +1,5 @@
+# __Rewriting this file! Some stuff is wrong!!!__
+
 # **AetherLink v2 — User Documentation**
 
 AetherLink v2 is a high‑level Python wrapper designed to automate and control DeepSeek's chat interface using Selenium. It builds structured system prompts, preserves sessions, supports custom command injection, and provides a fully modular command registry.
@@ -164,6 +166,8 @@ aether.clear_chat_history()
 # **8. Custom Commands System**
 
 AetherLink v2 introduces a complete modular command registry.
+
+Built-in commands can now be disabled with the new install_default_commands argument when initializing. Please note that you can only disable *all* of them and not select which at this point in time.
 
 Commands follow the format:
 
