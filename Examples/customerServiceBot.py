@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Potentially outdated, haven't checked. (Written on AetherLink 2.4.X)
+
 AetherLink Quick Start
 This has been updated to the latest version of AetherLink which is easier to use!
 """
