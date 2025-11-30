@@ -39,9 +39,4 @@ Source = "https://github.com/tacticalhorizons/aetherlink"
 Issues = "https://github.com/tacticalhorizons/aetherlink/issues"
 
 [tool.setuptools]
-packages = { find = { where = [".", "aetherlink"], exclude = ["Examples*", "tests*", "docs*"] } }
-
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["aetherlink*"]
-exclude = ["Examples"]
+packages = ["aetherlink"]
