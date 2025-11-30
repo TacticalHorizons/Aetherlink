@@ -4,6 +4,14 @@ AetherLink v2 is a high‑level Python wrapper designed to automate and control 
 
 ---
 
+### Some stuff I've been able to do with AetherLink:
+* Group chats where multiple users can interact with the same AI, but like... in a group chat
+* Shove multiple AIs into a single group chat and have them panic about their existence- (last part is a joke, but yes, you can)
+* Customer support
+* Moderation triages (very useful!)
+
+---
+
 # **1. Installation & Requirements**
 
 AetherLink requires:
